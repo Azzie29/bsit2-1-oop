@@ -6,7 +6,7 @@ public static void main(String[] args) {
     System.out.println("=== Social Media Post Manager ===");
 
     String postTitle = "Java Programming Tips";
-    int engagementScore = pm.calculateEngagement(150, 75, 25); // likes, comments, shares
+    int engagementScore = pm.calculateEngagement(150, 75, 25); 
     String category = pm.getCategoryRating(engagementScore);
 
     System.out.println("Post: " + postTitle);
