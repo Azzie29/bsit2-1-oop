@@ -67,7 +67,7 @@ public class LibraryManager {
             System.out.print("Enter book number to remove (1-" + books.size() + "): ");
             String input = scanner.nextLine();
 
-            int index = Integer.parseInt(input); // may throw NumberFormatException
+            int index = Integer.parseInt(input); 
 
             if (index < 1) {
                 throw new IllegalArgumentException("Book number must be positive!");
@@ -76,7 +76,7 @@ public class LibraryManager {
                 throw new ArrayIndexOutOfBoundsException("Invalid book number! Please enter between 1 and " + books.size() + ".");
             }
 
-            String removedBook = books.remove(index - 1); // -1 because list is 0-based
+            String removedBook = books.remove(index - 1); 
             System.out.println("Book '" + removedBook + "' removed successfully!");
 
         } catch (NumberFormatException e) {
