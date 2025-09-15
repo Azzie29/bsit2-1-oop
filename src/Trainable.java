@@ -24,7 +24,7 @@ class TrainableBird extends Bird implements Trainable {
     }
 }
 
-// Method that works with any Trainable
+
 class Trainer {
     public void train(Trainable pet) {
         pet.performTrick();
