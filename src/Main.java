@@ -25,6 +25,6 @@ public class PetClinicSystem {
 
         System.out.println("\nService Charges:");
         System.out.println("=============================");
-        PetService.main(null);  // call the service price list
+        PetService.main(null); 
     }
 }
